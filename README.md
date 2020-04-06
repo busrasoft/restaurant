@@ -11,15 +11,15 @@
 
 1) I created Migrations Folder
 
-php artisan make:migration create_categories_table --create=categories
-php artisan make:migration create_customers_table --create=customers
-php artisan make:migration create_employees_table --create=employees
-php artisan make:migration create_orderDetails_table --create=orderDetails
-php artisan make:migration create_orders_table --create=orders
-php artisan make:migration create_products_table --create=products
-php artisan make:migration create_shippers_table --create=shippers
-php artisan make:migration create_suppliers_table --create=suppliers
-php artisan migration
+php artisan make:migration create_categories_table --create=categories <br>
+php artisan make:migration create_customers_table --create=customers <br>
+php artisan make:migration create_employees_table --create=employees <br>
+php artisan make:migration create_orderDetails_table --create=orderDetails <br>
+php artisan make:migration create_orders_table --create=orders <br>
+php artisan make:migration create_products_table --create=products <br>
+php artisan make:migration create_shippers_table --create=shippers <br>
+php artisan make:migration create_suppliers_table --create=suppliers <br>
+php artisan migration <br>
 
 2) I created Controller Folder
 
