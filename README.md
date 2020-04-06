@@ -7,7 +7,30 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+## About Laravel 7 Restaurant API
+
+1) I created Migrations Folder
+
+php artisan make:migration create_categories_table --create=categories
+php artisan make:migration create_customers_table --create=customers
+php artisan make:migration create_employees_table --create=employees
+php artisan make:migration create_orderDetails_table --create=orderDetails
+php artisan make:migration create_orders_table --create=orders
+php artisan make:migration create_products_table --create=products
+php artisan make:migration create_shippers_table --create=shippers
+php artisan make:migration create_suppliers_table --create=suppliers
+php artisan migration
+
+2) I created Controller Folder
+
+php artisan make:controller API/CategoryController --api     
+php artisan make:controller API/CustomerController --api     
+php artisan make:controller API/EmployeeController --api     
+php artisan make:controller API/OrderDetailController --api  
+php artisan make:controller API/OrderController --api        
+php artisan make:controller API/ProductController --api      
+php artisan make:controller API/ShipperController --api      
+php artisan make:controller API/SupplierController --api   
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
